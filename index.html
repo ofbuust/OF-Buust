@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Student Business</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Business Name</h1>
+  </header>
+
+  <section id="products">
+    <h2>Products</h2>
+    <div class="item">
+      <h3>Product A</h3>
+      <p>£10</p>
+    </div>
+    <div class="item">
+      <h3>Product B</h3>
+      <p>£15</p>
+    </div>
+  </section>
+
+  <section id="payment">
+    <h2>Payment Instructions</h2>
+    <p>Bank transfer only.</p>
+    <p><b>Account name:</b> YOUR NAME</p>
+    <p><b>Account number:</b> XXXX XXXX</p>
+    <p><b>Sort code:</b> XX-XX-XX</p>
+    <p>Send screenshot of payment using the form below.</p>
+  </section>
+
+  <section id="upload">
+    <h2>Upload Proof of Payment</h2>
+    <form action="https://formspree.io/f/YOUR_ID" method="POST" enctype="multipart/form-data">
+      <input type="email" name="email" placeholder="Your email" required>
+      <input type="file" name="proof" accept="image/*" required>
+      <textarea name="message" placeholder="Order details" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
