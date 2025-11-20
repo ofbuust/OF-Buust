@@ -1,0 +1,5 @@
+body { font-family: sans-serif; max-width: 700px; margin: auto; padding: 20px; }
+header { text-align: center; margin-bottom: 40px; }
+.item { margin-bottom: 20px; }
+form input, form textarea { display: block; width: 100%; margin-bottom: 10px; padding: 8px; }
+button { padding: 10px 16px; cursor: pointer; }
